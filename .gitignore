@@ -1,0 +1,24 @@
+# CLion
+.idea/
+/build/
+# CMake
+cmake-build-*/
+
+# 编译产物
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+
+# 临时文件
+*.log
+*.tmp
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# 敏感配置
+.env
